@@ -31,7 +31,7 @@ header nav a {
   display: flex;
   align-items: center;
   gap: 32px;
-  ´padding: 24px 80px 128px 80px;
+  padding: 24px 80px 128px 80px;
   position: relative;
 }
 
@@ -104,3 +104,83 @@ h2 {
     padding: 64px 80px; 
 }
 
+.duvida{
+  position:relative;
+}
+
+
+.duvida h3 {
+  border: 2px solid #ff725e;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 24px;
+}
+
+.duvida img{
+  position: absolute;
+  top: 32px;
+  right: 24px;
+}
+
+.duvida .paragrafo {
+  border-right: 1px solid #ff725e;
+  border-bottom:1px solid #ff725e ;
+  border-left: 1px solid #ff725e;
+  border-radius:0 0 8px 8px;
+  margin-top: -8px;
+  padding:0px 24px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: .2s;
+}
+
+.duvida.ativa .paragrafo{
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
+}
+
+footer{
+  background-color: rgba(255, 152, 108, 0.25);
+  justify-content:space-between ;
+  display: flex;
+  gap:80px;
+  padding: 64px 80px;
+}
+
+footer img,
+footer.titulo{
+  display:block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+footer div a{
+  color: #263138;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  
+}
+
+footer p {
+  margin-bottom: 16px;
+  max-width: 350px;
+}
+footer div  p {
+  color: #263138;
+  text-decoration: none;
+
+}
+
+
+#copyright{
+  background-color: #263138;
+  text-align: center;
+  padding: 24px;
+  color:#ffffff;
+}
+
+#copyright a {
+  color:#ff9a6c ;
+}
