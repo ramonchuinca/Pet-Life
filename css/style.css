@@ -184,3 +184,40 @@ footer div  p {
 #copyright a {
   color:#ff9a6c ;
 }
+/*TEMA CLARO OU ESCURO*/
+ 
+
+
+/* Outros estilos para tema escuro */
+
+.trilho {
+  width: 150px;
+  height: 64px;
+  background-color: #263138;
+  border-radius: 150px;
+  position: relative;
+  cursor: pointer;
+}
+
+.trilho .indicador {
+  width: 62px;
+  height: 66px;
+  background-color: #000;
+  border-radius:58%;
+  transform: scale(.7);
+  position: absolute;
+  left:0px;
+  transition:.5s;
+}
+
+.trilho.dark .indicador{
+  left: 90px;
+  background-color: #ffffff;
+}
+
+body.dark{
+  background-color: #000;
+  color: #ffffff;
+}
+
+
