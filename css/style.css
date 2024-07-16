@@ -156,7 +156,7 @@ footer.titulo{
   margin-bottom: 24px;
 }
 footer div a{
-  color: #263138;
+  color: #000;
   display: block;
   margin-bottom: 16px;
   text-decoration: none;
@@ -168,7 +168,7 @@ footer p {
   max-width: 350px;
 }
 footer div  p {
-  color: #263138;
+  color: #000;
   text-decoration: none;
 
 }
@@ -219,5 +219,28 @@ body.dark{
   background-color: #000;
   color: #ffffff;
 }
+
+@media (max-width:1280px) {
+
+footer div p {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer div a {
+  color: #ffffff;
+}
+
+}
+
+@media (max-width:1024px) {
+  .botão2 {
+    display: block;
+    padding: 27px 32px;
+  }
+}
+
+
+
+
 
 
